@@ -40,16 +40,16 @@ export default function HeroSection() {
                     </motion.div>
 
                     <motion.h1
-                        style={{ opacity: contentOpacity }}
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.2, duration: 0.6 }}
-                        className="font-black mb-4 text-5xl md:text-6xl lg:text-7xl leading-none"
                         style={{
+                            opacity: contentOpacity,
                             fontFamily: "'Outfit', sans-serif",
                             color: "#fff",
                             textShadow: "3px 3px 0px #CC0000, -1px -1px 0px #CC0000, 1px -1px 0px #CC0000, -1px 1px 0px #CC0000",
                         }}
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.2, duration: 0.6 }}
+                        className="font-black mb-4 text-5xl md:text-6xl lg:text-7xl leading-none"
                     >
                         ¡El Auténtico<br />
                         <span style={{ color: "#FFD700", textShadow: "3px 3px 0px #CC0000, -1px -1px 0px #CC0000, 1px -1px 0px #CC0000, -1px 1px 0px #CC0000" }}>
