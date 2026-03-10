@@ -64,7 +64,7 @@ export const combos: Product[] = [
         price: "$2.990",
         category: "combos",
         // Pollo frito individual con papas – Unsplash by amirali mirhashemian
-        image: "https://images.unsplash.com/photo-1585325701954-8f5ac09e2c47?w=600&h=400&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1554260570-e9689a3418b8?w=600&h=400&fit=crop&auto=format",
         isCombo: true,
     },
 ];
@@ -78,7 +78,7 @@ export const polloItems: Product[] = [
         price: "$2.190",
         category: "pollo",
         // Piezas de pollo crispy dorado – Unsplash by Eiliv Aceron
-        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c8?w=500&h=350&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=500&h=350&fit=crop&auto=format",
         badge: "Original / Picante",
     },
     {
@@ -106,7 +106,7 @@ export const polloItems: Product[] = [
         price: "$7.490",
         category: "pollo",
         // Balde grande de pollo frito – Unsplash by Thomas Marban
-        image: "https://images.unsplash.com/photo-1659951093804-0aef25efe52c?w=500&h=350&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=500&h=350&fit=crop&auto=format",
         badge: "🏆 Super Tamaño",
     },
 ];

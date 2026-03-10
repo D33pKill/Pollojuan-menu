@@ -50,7 +50,7 @@ export default function CategorySection({
                 </div>
 
                 {/* Product list */}
-                <div className="flex flex-col gap-3 md:grid md:grid-cols-2 md:gap-4">
+                <div className="flex flex-col gap-3 md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-4">
                     {products.map((product, i) => (
                         <ProductCard key={product.id} product={product} index={i} />
                     ))}
